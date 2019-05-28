@@ -16,14 +16,14 @@
 
 
 ## 목록 만들기 (TOC , table of contents)
-```
-${toc}
-```
 
 ${toc}
 
-## 주석 만들기 (footnote)
-```
+
+${toc}
+
+## 레퍼런스 만들기 (footnote)
+
 Here is a footnote reference,[^1] and another.[^longnote]
 
 [^1]: Here is the footnote.
@@ -32,7 +32,7 @@ Here is a footnote reference,[^1] and another.[^longnote]
 
     Subsequent paragraphs are indented to show that they
 belong to the previous footnote.
-```
+
 Here is a footnote reference,[^1] and another.[^longnote]
 
 [^1]: Here is the footnote.
